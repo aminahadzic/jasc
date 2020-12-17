@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>My Resume</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="jasc.js"></script>
+</head>
+
+<body>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <div id="navbar1">
+        <ul id="nav_one">
+            <li><a href="#nav_one">Home</a></li>
+            <li><a href="#portfolio">My Portfolio</a></li>
+            <li><a href="#education_one">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+    </div>
+    
+    <br>
+    <br>
+    
+  <div>
+      <table id="intro">
+          <tr>
+              <td id="td_one">
+               <h2 id="title">Hello,</h2>
+               <h2 id="title">My name is</h2>
+               <h2 id="title">Amina.</h2>
+               <h2 id="countdown"></h2>
+              </td>
+              <td id="td_two">
+                <img src="amina.jpg" alt="" id ="my_picture">
+              </td>
+          </tr>
+    
+     </table>
+</div>
+<h3 id="link_project"><a href="https://aminahadzic.github.io/Resume/">Link to Project 1</a></h3>
+<h3 id="link_project"><a href="https://aminahadzic.github.io/Project-2/">Link to Project 2</a></h3>
+<div id="online"><p id="online_p">Is the browser is online?</p>
+    <button id="onl_button" onclick="myFunction()">Click to see</button>
+    <p id="demo"></p></div>
+
+    <div id="portfolio">
+    <h2 id="heading_portfolio"><img src="icons8-communication-skill-24.png">My portfolio</h2>
+    <blockquote>
+        <p>Hello stranger, as You could have seen, my name is Amina Hadžić. I come from a beautiful country Bosnia and
+            Herzegovina and my hometown is all the way up in the north east. Its name is Brčko and its a district. I am
+            20 years old, born on 23. of Frebruary 2000.
+        </p>
+    </blockquote>
+</div><br>
+    <div id="education_one">
+    <h3 id="heading_ed_one"><img src="icons8-contract-32.png"> Primary School and High School</h3>
+    
+    <blockquote>
+        <p> I finished <b>the Second Primary School "Grčica"</b>also in my hometown, but I started<a
+                href="https://bbm.edu.ba"> <b>the Behram-begova medresa highschool</b></a> in Tuzla in 2014.</p>
+    </blockquote>
+</div>
+    
+<div id="education_two">
+    <h3 id="heading_ed_two"><img src="icons8-university-30.png">University</h3>
+    
+    <blockquote>
+        <p>I have always had love for technology and art, and when I mixed those two amazing fields, I came to a
+            conclusion I wanted to study software engineering. I see it as art of programming and creating amazing and
+            beautiful things by coding.<br>
+            My decision to study at IUS was made as soon as I have heard about the university, and I made up my mind it
+            is going to be my home for the next 4 years. I am currently studying at <b>Faculty of Engineering and
+                Natural Sciences at <a href="https://www.ius.edu.ba">IUS</a></b> from 2018.<br>
+            Now I am here, a 3<sup>rd</sup> year student introducing myself and my skills I have gained through studying
+            at IUS and generally.</p>
+    </blockquote>
+</div><br>
+    <div id="skills">
+    <h3 id="heading_skills"><img src="icons8-communication-skill-24.png">Skills</h3>
+    
+    <ul>
+        <blockquote>
+            <p>
+                <li class="skills_ul">Experience in back-end development in Java and C++</li>
+                <li class="skills_ul">Hardworking and able to work in teams</li>
+                <li class="skills_ul">Fluent in English</li>
+                <li class="skills_ul">Able to accomodate to new surroundings and eager to learn new things</li>
+                <li class="skills_ul">Experience in design and drawing of characters etc.</li>
+            </p>
+        </blockquote>
+    </ul>
+</div>
+
+<br>
+<div class="container" id="crsl">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="pics/man1.png" class="d-block w-150 img-fluid" alt="0">
+    </div>
+      <div class="carousel-item">
+        <img src="pics/man2.jpg" class="d-block w-150 img-fluid" alt="1">
+      </div>
+      <div class="carousel-item">
+        <img src="pics/man3.jpg" class="d-block w-150 img-fluid" alt="2">
+      </div>
+      <div class="carousel-item">
+        <img src="pics/woman1.png" class="d-block w-150 img-fluid" alt="3">
+        </div>
+        <div class="carousel-item">
+            <img src="pics/woman3.jpg" class="d-block w-150 img-fluid" alt="4">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+</div>
+   <br>
+   <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          About my digital art
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          This type of digital art has been done on the app called Ibis X. Some of them are commissions, and some of them I have drawn in my free time in moments of inspiration. Hope You enjoy it!
+        </div>
+      </div>
+    </div>
+<br>
+    <div id="contact">
+    <h3 id="heading_contact"><img src="icons8-dialing-number-50.png">Contact Information</h3>
+    <hr>
+    <table>
+        <tr>
+            
+            <th class="table_one"> Email</th>
+            <th class="table_one">Number</th>
+            <th class="table_one">Instagram</th>
+            <th class="table_one">LinkedIn</th>
+        </tr>
+        <tr>
+            <td>amina.oxe@gmail.com</td>
+            <td>+387 64 440 89 94</td>
+            <td><a href="https://www.instagram.com/aminahad0/?hl=en"><img src="icons8-instagram-old-52.png" alt="" srcset=""></a></td>
+            <td><a href="https://ba.linkedin.com/in/amina-hadžić-073760177"><img src="icons8-linkedin-50.png" alt="" srcset=""></a></td>
+        </tr>
+    </table>
+</div>
+<br>
+    <div id="location">
+    <h3 id="heading_location"><img src="icons8-location-64.png">Location</h3>
+    
+    <ol>
+    
+       <li>Brčko, Omberbegovačka 104/A</li>
+       <li>Ilidža, Hrasnica, Šehitluci 19</li>
+    
+    </ol>
+</div>
+    <hr>
+    <h1 id="ending">Thank You for Visiting!</h1>
+    <br>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="If you want more information about me, contact me via mail or find me on social media" data-content="">Click here for more</button>
+    <h3 id="go_home"><a id="back_to" href="#navbar1">Back to Beginning</a></h3>
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
